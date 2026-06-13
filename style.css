@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+  font-family: 'Nunito', sans-serif;
+  background-image: url('/images/Cloud.png');
+  background-size: cover;
+  color:#042c41;
+}
+
+.birthday-number{
+  color: #0680c2;
+}
+
+.main-button {
+  width: 300px;          /* button width */
+  height: 300px;      /* button height */
+
+  font-size: 20px;       /* text size */
+  font-weight: bold;     /* bold text */
+  border-radius: 20px;   /* rounded corners */
+  margin: 10px; 
+  background-color: #c0e7fa;   
+  border: none; 
+  color: #030404;
+  font-family: 'Nunito', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 5px solid #edeff0;
+
+}
+
+.message {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.message1{
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-button img {
+    width: 125px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.button-group{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.top-bar{
+  background-color: #edeff0;
+  color:#76bbbf;
+  width: 95%;
+  padding:40px 0px;
+  border-radius: 28px;
+  box-shadow: #2f4147 0px 4px 8px, #6a9daf 0px 6px 20px;
+  margin: 0 auto;
+
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  right: 17px;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  top:0px;
+  left: 65px;
+  position: absolute; 
+  padding: 0;
+}
+
+.light-on{
+  width: 60px;
+}
+
+.button-zero{
+  position: absolute;
+  top: 28px;
+  right: 530px;
+  border-color: #042c41;
+
+  color: #042c41;
+  text-decoration: none;
+}
+
+.button-one {
+  position: absolute;
+  top: 28px;
+  right: 350px;
+
+  color:#042c41;
+  text-decoration: none;
+
+}
+
+.button-two{
+  position: absolute;
+  top: 28px;
+  right: 215px;
+
+  color:#042c41;
+  text-decoration: none;
+}
+
+.button-three{
+  position: absolute;
+  top: 28px;
+  right: 65px;
+
+  color:#042c41;
+  text-decoration: none;  
+}
+
+.front-page{
+  margin-top: 175px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: 'Nunito', sans-serif;
+}
+
+.para-one{
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: larger;
+}
+
+
+
+.header{
+  font-size: 30px;
+  color: #042c41;
+
+  margin-top: 75px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.letter{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  justify-content: center;
+  color: #042c41; 
+  text-shadow: 14px 14px 14px rgba(255, 255, 255, 0.5); /* Add a subtle shadow for better readability */
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.message-box{
+  background-color: blur(20px) #c0e7fa;
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  box-shadow: #2f4147 0px 4px 8px, #6a9daf 0px 6px 20px;
+  margin: 145px auto;
+  width: 60%;
+  height: 800px;
+  position: relative; 
+  padding-top: 2%;
+}
+
+
+form{
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.form-box{
+  justify-content: center;
+  padding: 20px;
+  border-radius: 16px;
+  width: 60%;
+  margin: 150px auto;
+  background-color: blur(20px) #c0e7fa;
+  backdrop-filter: blur(20px);
+  box-shadow: #2f4147 0px 4px 8px, #6a9daf 0px 6px 20px;  
+}
+
+.name{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #042c41;
+  gap: 10px;
+}
+
+.name1{
+  display: block;
+  font-size: 16px;
+  color: #042c41;
+  gap: 10px;
+}
+
+.service-desired{
+  font-size: 18px;
+margin-bottom: 10px;
+color: #042c41;
+gap: 10px;
+}
+
+.more{
+  font-size: 16px;
+  color: #042c41;
+  gap: 10px;
+  width: 345px;
+}
+
+.form-button{
+  border: none;
+  color: #030404;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.message-word{
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #042c41;
+  gap: 10px;
+}
+
+.text.box{
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #042c41;
+  gap: 10px;
+}
+
+.photos{
+  transform: scale(0.10);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1000px;
+  margin-top:-17055px;
+  margin-left: -975px;
+}
+
+.photo-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 350px;
+  font-family: 'Nunito', sans-serif;
+  color:#030404
+}
